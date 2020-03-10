@@ -12,6 +12,7 @@ public class Enemy : MonoBehaviour {
     public int contador;
     public Text puntos;
     public static int Daño;
+    public static int DañoPlayer;
 
     // Variables relacionadas con el ataque
     [Tooltip("Prefab de la roca que se disparará")]
@@ -40,6 +41,7 @@ public class Enemy : MonoBehaviour {
 
     void Start () {
         Daño = 1;
+        DañoPlayer = 1;
         // Recuperamos al jugador gracias al Tag
         player = GameObject.FindGameObjectWithTag("Player");
 
@@ -127,6 +129,8 @@ public class Enemy : MonoBehaviour {
 
     IEnumerator Attack(float seconds){
         attacking = true;  // Activamos la bandera
+        Player.Daño = DañoPlayer;
+
         // Si tenemos objetivo y el prefab es correcto creamos la roca
         if (target != initialPosition && rockPrefab != null) {
             Instantiate(rockPrefab, transform.position, transform.rotation);

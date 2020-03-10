@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
     Vector2 mov;  // Ahora es visible entre los métodos
 
     CircleCollider2D attackCollider;
+    public static int Daño;
 
     Aura aura;
 
@@ -34,6 +35,7 @@ public class Player : MonoBehaviour {
     }
 
     void Start () {
+        Daño = 1;
         anim = GetComponent<Animator>();
         rb2d = GetComponent<Rigidbody2D>();
 
@@ -87,19 +89,13 @@ public class Player : MonoBehaviour {
 
     public void Attacked()
     {
-        PlayAttackedSound();
-
-        Corazones.contenedor=--hp;
+        hp = hp - Daño;
+        Debug.Log( Daño);
+        Corazones.contenedor=hp;
         if (hp <= 0) {
             Destroy(gameObject);
             Application.LoadLevel("GameOver");
         };
-    }
-
-    void PlayAttackedSound(){
-        if(!this.GetComponents<AudioSource>()[1].isPlaying){
-            this.GetComponents<AudioSource>()[1].Play();
-        }
     }
 
     void Animations () {
@@ -135,16 +131,8 @@ public class Player : MonoBehaviour {
 
             if (playbackTime > 0.33 && playbackTime < 0.66) attackCollider.enabled = true;
             else attackCollider.enabled = false;
-
-            PlayAttackSound();
         }
 
-    }
-
-     void PlayAttackSound(){
-        if(!this.GetComponents<AudioSource>()[0].isPlaying){
-            this.GetComponents<AudioSource>()[0].Play();
-        }
     }
 
     void SlashAttack () {

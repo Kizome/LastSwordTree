@@ -74,6 +74,8 @@
     <Compile Include="Assets\Scripts\DialogeManagerTienda.cs" />
     <Compile Include="Assets\Scripts\DialogeManagerTiendaCorazon.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\EnemyBoss.cs" />
+    <Compile Include="Assets\Scripts\EnemySpecial.cs" />
     <Compile Include="Assets\Scripts\FixDepth.cs" />
     <Compile Include="Assets\Scripts\MainCamera.cs" />
     <Compile Include="Assets\Scripts\Npc_Dialogue.cs" />
