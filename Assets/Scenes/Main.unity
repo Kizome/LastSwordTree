@@ -4809,6 +4809,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272847, guid: 39855127897cbca49ab467e7c8277ef8,
+        type: 3}
+      propertyPath: dialogePanel
+      value: 
+      objectReference: {fileID: 618738941}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39855127897cbca49ab467e7c8277ef8, type: 3}
 --- !u!1001 &1140540337
@@ -5682,6 +5687,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272847, guid: 39855127897cbca49ab467e7c8277ef8,
+        type: 3}
+      propertyPath: dialogePanel
+      value: 
+      objectReference: {fileID: 618738941}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39855127897cbca49ab467e7c8277ef8, type: 3}
 --- !u!4 &1467777239 stripped
@@ -6849,6 +6859,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272847, guid: 39855127897cbca49ab467e7c8277ef8,
+        type: 3}
+      propertyPath: dialogePanel
+      value: 
+      objectReference: {fileID: 618738941}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 39855127897cbca49ab467e7c8277ef8, type: 3}
 --- !u!1001 &1780821064
