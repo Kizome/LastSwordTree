@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &323727766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4687433952093870747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af45c140c2186c14990d86ddbf67da46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Dialoge: {fileID: 4687433952093870746}
+  dialogePanel: {fileID: 0}
+  typingSpeed: 1
+  speackSound: {fileID: 0}
+--- !u!1001 &1672048925690254227
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6213089501397272840, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_Name
+      value: "Npc_TiendaDa\xF1o"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 27.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272846, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272841, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: sentenceList.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272841, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: sentenceList.Array.data[0]
+      value: Toma corazones por 3 puntos
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272847, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: dialogePanel
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6213089501397272847, guid: b801dc55d497ead4db567208aa26d55e,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6213089501397272847, guid: b801dc55d497ead4db567208aa26d55e, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: b801dc55d497ead4db567208aa26d55e, type: 3}
+--- !u!1 &4687433952093870747 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6213089501397272840, guid: b801dc55d497ead4db567208aa26d55e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672048925690254227}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4687433952093870746 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6213089501397272841, guid: b801dc55d497ead4db567208aa26d55e,
+    type: 3}
+  m_PrefabInstance: {fileID: 1672048925690254227}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4687433952093870747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 188d45cd499c3ee4bbe512a019586d2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
